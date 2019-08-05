@@ -1,24 +1,17 @@
 function angkaPalindrome(num) {
-    if (num <=10) {
-        var num1 = 0;
-        while(num1 <= 10){
-            if(num == num1){
-                return num + 1;
-            } else if (num != num1){
-                num1++;
-            }
-        }
-    } else if (num > 10){
+    if ((num <= 10)&&(num > 0)) {
+        return num + 1
+    } else {
         while(true){
-            num = num + 1
-            var num2 = String(num);
-            var numTemp = '';
-            for(i = num2.length-1; i >=0; i--){
-                numTemp+=num2[i];
-            }
+            num++;
+            var numStr = num.toString();
+            var temp = '';
+            for(i = numStr.length-1 ; i >= 0 ; i--){
+                temp+=numStr[i]
 
-            if (num2 == numTemp){
-                return Number(numTemp);
+                if (numStr == temp) {
+                    return Number(temp);
+                }
             }
         }
     }
