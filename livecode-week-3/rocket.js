@@ -78,16 +78,6 @@ OUTPUT:
   Input hari harus dalam bahasa Indonesia atau Inggris yang benar
 */
 
-// Terdapat 31 hari pada bulan agustus 2019 dengan jumlah minggu sebanyak 5 minggu.
-// - Tanggal 1 dimulai pada hari kamis, yang juga awal dari minggu pertama di bulan agustus.
-// - Minggu ke 2 dimulai tanggal 4
-// - Minggu ke 3 dimulai tanggal 11
-// - Minggu ke 4 dimulai tanggal 18
-// - Minggu ke 5 dimulai tanggal 25
-// Pada bulan agustus ada 2 tanggal merah yaitu tanggal 11 dan 17.
-// Hari Rabu, 21 Agustus 2019 bukan hari libur
-
-
 function infoAgustus(day, week){
   var tanggal = 0;
   var bulan = 'agustus';

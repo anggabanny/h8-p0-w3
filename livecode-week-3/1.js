@@ -22,7 +22,6 @@ IF 'angka' more than 1, go to next step, if not DISPLAY false
     ELSE
         DISPLAY false
 
-
 // CODE
 // var angka = 0;
 
