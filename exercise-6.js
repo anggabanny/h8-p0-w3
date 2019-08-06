@@ -22,3 +22,4 @@ function angkaPalindrome(num) {
   console.log(angkaPalindrome(117)); // 121
   console.log(angkaPalindrome(175)); // 181
   console.log(angkaPalindrome(1000)); // 1001
+  

@@ -16,3 +16,4 @@ function palindrome(kata) {
   console.log(palindrome('civic')); // true
   console.log(palindrome('kasur rusak')); // true
   console.log(palindrome('mister')); // false
+  

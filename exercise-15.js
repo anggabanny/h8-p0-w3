@@ -14,7 +14,6 @@ function groupAnimals(animals) {
     }
     return temp1
 }
-
 // TEST CASES
 console.log(groupAnimals(['cacing', 'ayam', 'kuda', 'anoa', 'kancil']));
 // [ ['ayam', 'anoa'], ['cacing'], ['kuda', 'kancil'] ]
