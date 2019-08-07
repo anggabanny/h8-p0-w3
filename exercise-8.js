@@ -2,13 +2,13 @@ function pasanganTerbesar(num) {
     var newNum = num.toString();
     var numMax = 0;
 
-    for(i = 0; i < newNum.length; i++){
+    for(var i = 0; i < newNum.length; i++){
         var checkNum = newNum[i] + newNum[i+1];
         if (checkNum > numMax) {
             numMax = checkNum
         }
     }
-    return numMax
+    return Number(numMax);
 }
 
 // TEST CASES
