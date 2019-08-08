@@ -7,4 +7,3 @@ function balikString(value){
 }
 console.log(balikString('hello world!'));
 console.log(balikString('hacktiv8'));
-console.log(balikString('anggabanny'));
