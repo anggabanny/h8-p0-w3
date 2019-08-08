@@ -1,19 +1,20 @@
 function groupAnimals(animals) {
-    var tempAnimals = [
+    var temp = [
         []
     ];
     var indeks = 0;
     animals.sort();
-    tempAnimals[0].push(animals[0]);
+    temp[0].push(animals[0]);
     for (var i = 1; i < animals.length; i++) {
-        if (animals[i][0] === tempAnimals[indeks][0][0]) {
-            tempAnimals[indeks].unshift(animals[i]);
+        if (animals[i][0] === temp[indeks][0][0]) {
+            temp[indeks].unshift(animals[i]);
         } else {
             indeks++;
-            tempAnimals[indeks] = [animals[i]];
+            temp[indeks] = [animals[i]];
         }
     }
-    return tempAnimals;
+    temp[1].sort()
+    return temp;
 }
 // TEST CASES
 console.log(groupAnimals(['cacing', 'ayam', 'kuda', 'anoa', 'kancil']));
