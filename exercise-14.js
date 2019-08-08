@@ -3,7 +3,6 @@ function mengelompokkanAngka(arr) {
     var ganjil = [];
     var KelipatanTiga = [];
     for(var i = 0; i < arr.length; i++){
-        console.log(arr[i]);
         if ( arr[i] % 3 == 0) {
             KelipatanTiga.push(arr[i])
         } else if (arr[i] % 2 == 0){
