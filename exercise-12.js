@@ -1,6 +1,6 @@
 function tentukanDeretGeometri(arr) {
     var checkArr = arr[1] / arr[0]
-    for(i = 0; i < arr.length; i++){
+    for(var i = 0; i < arr.length; i++){
         if ( i != arr.length -1) {
             var baruCheck = arr[i+1] / arr[i];
             if (baruCheck !== checkArr) {

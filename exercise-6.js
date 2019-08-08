@@ -6,7 +6,7 @@ function angkaPalindrome(num) {
             num++;
             var numStr = num.toString();
             var temp = '';
-            for(i = numStr.length-1 ; i >= 0 ; i--){
+            for(var i = numStr.length-1 ; i >= 0 ; i--){
                 temp+=numStr[i]
 
                 if (numStr == temp) {
@@ -22,4 +22,3 @@ function angkaPalindrome(num) {
   console.log(angkaPalindrome(117)); // 121
   console.log(angkaPalindrome(175)); // 181
   console.log(angkaPalindrome(1000)); // 1001
-  

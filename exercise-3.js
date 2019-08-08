@@ -6,8 +6,8 @@ var input = [
 ]
 
 function dataHandling() {
-    for(i = 0; i < input.length; i++){
-        for(j = 0; j < input[i].length; j++){
+    for(var i = 0; i < input.length; i++){
+        for(var j = 0; j < input[i].length; j++){
             if (j == 0) {
                 console.log('Nomor ID:', input[i][j]);
             } else if (j == 1){

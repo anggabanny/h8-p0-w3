@@ -4,7 +4,7 @@ function hitungJumlahKata(kalimat) {
     }
 
     var count = 1;
-    for(i = 0; i < kalimat.length; i++){
+    for(var i = 0; i < kalimat.length; i++){
         if (kalimat[i] == ' ') {
             count++;
         }
