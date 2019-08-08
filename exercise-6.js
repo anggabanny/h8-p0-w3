@@ -8,7 +8,6 @@ function angkaPalindrome(num) {
             var temp = '';
             for(var i = numStr.length-1 ; i >= 0 ; i--){
                 temp+=numStr[i]
-
                 if (numStr == temp) {
                     return Number(temp);
                 }
