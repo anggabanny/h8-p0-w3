@@ -1,10 +1,12 @@
+var input = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca"];
+
 function dataHandling2(input){
-    input.splice(1,1,'Roman Alamsyah Elsharawy');
-    input.splice(2,1,'Provinsi Bandar Lampung')
-    input.splice(4,0,'pria')
-    input.splice(5,1,'SMA Internasional Metro')
+
+    // SPLICE (INGIN MULAI DARI INDEX KEBERAPA?, HAPUS INDEX DARI INDEX YANG DI MULAI, TAMBAHKAN INDEX BERIKUTNYA)
+    input.splice(1,4, "Roman Alamsyah Elsharawy", "Provinsi Bandar Lampung", "21/05/1989", "Pria", "SMA Internasional Metro");
     console.log(input);
-    
+
+    // SPLIT(PISAHKAN DENGAN OPERATOR YANG TERDAPAT PADA INDEX TERSEBUT)
     var tanggal = input[3].split('/');
     var bulan = tanggal[1];
     switch(bulan){
@@ -20,17 +22,22 @@ function dataHandling2(input){
         case '10' : { console.log('Oktober'); break;}
         case '11' : { console.log('November'); break;}
         case '12' : { console.log('Desember'); break;}
-        default : {console.log('salah input bulan'); break;}
+        default : {console.log('bulan invalid'); break;}
     }
+    
+    // SORT(FUNGSI PARAMETER A DAN B, PANGGIL A KE B ATAU B KE A)
+    var tanggalSort = input[3].split('/');
+    var sortDescending = tanggalSort.sort(function(a,b){ return b - a}) 
+    console.log(sortDescending);
+    
+    // JOIN(GABUNGKAN DENGAN PARAMETER YANG DIPILIH)
+    var tanggalJoin = input[3].split('/');
+    var joinTanggal = tanggalJoin.join('-')
+    console.log(joinTanggal);
 
-    var descendingSort = tanggal.sort(function(a,b){ return b-a});
-    console.log(descendingSort);
-
-    var join = tanggal.join('-');
-    console.log(join);
-
+    // SLICE(MEMOTONG DARI INDEX YG DIPILIH, KE INDEX YANG DI AKHIRI)
     var slice = input[1].slice(0,15);
-    return slice
+    console.log(slice);
 }
 
-console.log(dataHandling2(["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"]));
+dataHandling2(input)
