@@ -9,11 +9,11 @@ Hacktiv8 Phase 0 Week 3: Arrays and Logics
 ### [Exercises 5 (Auto)] Palindrome 💯
 ### [Exercises 6 (Auto)] Palindrome Angka 💯
 ### [Exercises 7 (Auto)] Hitung Jumlah Kata 💯
-### [Exercises 8 (Auto)] Pasangan Angka Terbesar 🔥
+### [Exercises 8 (Auto)] Pasangan Angka Terbesar 💯
 ### [Exercises 9 (Auto)] Cari Mean 💯
 ### [Exercises 10 (Auto)] Perkalian Unik 💯
 ### [Exercises 11 (Auto)] Deret Aritmatika 💯
 ### [Exercises 12 (Auto)] Deret Geometri 💯
 ### [Exercises 13 (Auto)] Target Terdekat 💯
 ### [Exercises 14] Mengelompokkan Angka 💯
-### [Exercises 15] Mengelompokkan Hewan 🔥
+### [Exercises 15] Mengelompokkan Hewan 💯
